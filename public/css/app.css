@@ -11286,3 +11286,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-image: url("");
+  background-size: cover;
+}
+
+p {
+  color: red;
+}
