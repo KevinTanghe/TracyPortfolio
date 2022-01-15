@@ -1,5 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 @charset "UTF-8";
+@font-face {
+  font-family: Champagne;
+  src: url("/fonts/Champagne.ttf");
+}
+@font-face {
+  font-family: ChampagneBold;
+  src: url("/fonts/Champagne_Bold.ttf");
+}
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11287,10 +11295,38 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: url("");
+  background-image: url("/img/Page_Accueil.png");
   background-size: cover;
 }
 
-p {
+.logoHome {
+  height: 280px;
+}
+
+.h1Accueuil {
+  margin-left: 20%;
+  margin-top: 50px;
+}
+
+.titreAccueil {
+  color: white;
+  font-family: ChampagneBold;
+  font-size: 120px;
+}
+
+.sousTitreAccueil {
+  color: white;
+  font-family: Champagne;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.test {
+  background-color: none;
+}
+
+.test:hover {
   color: red;
+  background-image: url("/img/logo_bouton.png");
+  transition: 1s;
 }

@@ -1,6 +1,14 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@font-face {
+    font-family: Champagne;
+    src: url('/fonts/Champagne.ttf');
+}
 
+@font-face {
+    font-family: ChampagneBold;
+    src: url('/fonts/Champagne_Bold.ttf');
+}
 // Variables
 @import 'variables';
 

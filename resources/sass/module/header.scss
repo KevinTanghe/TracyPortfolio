@@ -1,8 +1,36 @@
 body{
-  background-image: url('img/Page_Accueil.png');
+    background-image: url("/img/Page_Accueil.png");
     background-size: cover;
 }
 
-p{
+.logoHome{
+    height: 280px;
+}
+
+.h1Accueuil{
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.titreAccueil{
+    color: white;
+    font-family: ChampagneBold;
+    font-size: 120px;
+}
+
+.sousTitreAccueil{
+    color: white;
+    font-family: Champagne;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.test{
+    background-color: none;
+}
+
+.test:hover{
     color: red;
+    background-image: url('/img/logo_bouton.png');
+    transition: 1s;
 }
